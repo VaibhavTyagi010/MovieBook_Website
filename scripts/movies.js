@@ -47,6 +47,7 @@ function append_data(data)
     name.innerText=ele.Title
     let btn=document.createElement("button")
     btn.innerText="Book Now"
+    btn.setAttribute("class","book_now")
     btn.addEventListener("click",function(){
         add(ele)
     })
